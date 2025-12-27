@@ -79,3 +79,5 @@ The current design is highly scalable in terms of **deployment (FastAPI is fast)
 
 **A Better Design for Massive Scale:**
 For enterprise-level isolation and greater horizontal scaling, the **"Shared Database Server, Separate Databases"** model is superior. In this alternative, each organization would have its own MongoDB **database** (not just a collection) on the shared server. This provides true resource isolation and prevents the "Noisy Neighbor" issue at the database level.
+mahesh
+
